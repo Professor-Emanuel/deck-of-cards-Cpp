@@ -88,7 +88,8 @@ struct Deck {
                 Card c;
                 c.suit = (Suits)col;
                 c.name = (CardNames)row;
-
+                
+                //Values are specific to each type of card game - 
                 if (c.name == CardNames::JACK) {
                     c.value = 10;
                 }
